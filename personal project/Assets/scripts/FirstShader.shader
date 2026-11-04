@@ -36,7 +36,7 @@ Shader "Custom/FirstShader"
 			 {
 				v2f o = (v2f)0;
 
-				o.positionCS = transformObjectToHClip(v.positionOS.xyz)
+				o.positionCS = TransformObjectToHClip(v.positionOS.xyz);
 
 				return o;
 			 }
