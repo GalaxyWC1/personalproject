@@ -1,0 +1,99 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.7f1 (017862109af0) revision 96354'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-scvgpstu" at "2026-11-07T18:01:17.1334064Z"
+OS: 'Windows 11  (10.0.26200) Education' Language: 'en' Physical Memory: 32210 MB
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-11-07T18:01:17Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 17652, path: "C:/Program Files/Unity/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              b26a5552a7d647fdaafa2eaa8f3d97b9
+  Correlation Id:          7f8b67ba3a0d490fcac9fdf4b7f9edc8
+  External correlation Id: 5413997617444450523
+  Machine Id:              mX/q6LkBar8ndwC3L/plGIYJc3E=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-scvgpstu" (connect: 0.00s, validation: 0.00s, handshake: 0.03s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-scvgpstu-notifications" at "2026-11-07T18:01:17.1695501Z"
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated the access token gk1i5r3FjL...
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 20067503068656-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.04s
+
+COMMAND LINE ARGUMENTS:
+C:/Program Files/Unity/Editor/Unity.exe
+-projectpath
+D:\VGP\Ewan Verduzco\personalproject
+-acceptSoftwareTermsForThisRunOnly
+-useHub
+-hubIPC
+-cloudEnvironment
+production
+-licensingIpc
+LicenseClient-scvgpstu
+-hubSessionId
+16185d5d-0738-4586-9b78-5bbcb02c3741
+-accessToken
+gk1i5r3FjLzZT75CmkNxgrVAwJpI4ktW2OtqBUBlGG4012f
+Successfully changed project path to: D:\VGP\Ewan Verduzco\personalproject
+D:/VGP/Ewan Verduzco/personalproject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [9712]  Target information:
+
+Player connection [9712]  * "[IP] 10.104.210.19 [Port] 55504 [Flags] 2 [Guid] 3586977030 [EditorId] 3586977030 [Version] 1048832 [Id] WindowsEditor(7,SC-VDGD-9GB91K4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [9712]  * "[IP] 172.22.113.38 [Port] 55504 [Flags] 2 [Guid] 3586977030 [EditorId] 3586977030 [Version] 1048832 [Id] WindowsEditor(7,SC-VDGD-9GB91K4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [9712] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [9712] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-13592" after 0.2 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+Rebuilding Library because the asset database could not be found!
+Exiting without the bug reporter. Application will terminate with return code 0
